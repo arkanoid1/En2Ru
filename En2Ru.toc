@@ -1,0 +1,5 @@
+﻿## Interface: 60000
+## Title: En2Ru
+## Notes: Для преобразования ошибочно набранного текста нажмите CTRL+R
+## Author: Konctantin
+En2Ru.lua
