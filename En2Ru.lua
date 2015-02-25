@@ -68,7 +68,7 @@ end);
     
 ChatFrame1EditBox:HookScript("OnEditFocusLost", ClearOverrideBindings);
 ChatFrame1EditBox:HookScript("OnEditFocusGained", function(self)
-    SetOverrideBindingClick(self, false, "CTRL-UP", "HelperButton"..ChatFrame1EditBox:GetName(), "translit");
+    SetOverrideBindingClick(self, false, "ALT-LEFT", "HelperButton"..ChatFrame1EditBox:GetName(), "translit");
 end);
 
-print("|cff15bd05Для преобразования ошибочно набранных символов нажмите |r|cff6f0a9aCTRL+UP|r");
+print("|cff15bd05Для преобразования ошибочно набранных символов нажмите |r|cff6f0a9aALT+LEFT|r");
